@@ -14,6 +14,7 @@
 		64E72B161B5133EF0001E8F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E72B151B5133EF0001E8F3 /* Images.xcassets */; };
 		64E72B191B5133EF0001E8F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64E72B171B5133EF0001E8F3 /* LaunchScreen.xib */; };
 		64E72B251B5133EF0001E8F3 /* testAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E72B241B5133EF0001E8F3 /* testAlertViewTests.m */; };
+		64E72B301B5136B60001E8F3 /* LDROpenServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E72B2F1B5136B60001E8F3 /* LDROpenServiceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		64E72B1E1B5133EF0001E8F3 /* testAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64E72B231B5133EF0001E8F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E72B241B5133EF0001E8F3 /* testAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAlertViewTests.m; sourceTree = "<group>"; };
+		64E72B2E1B5136B60001E8F3 /* LDROpenServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDROpenServiceViewController.h; sourceTree = "<group>"; };
+		64E72B2F1B5136B60001E8F3 /* LDROpenServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDROpenServiceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				64E72B151B5133EF0001E8F3 /* Images.xcassets */,
 				64E72B171B5133EF0001E8F3 /* LaunchScreen.xib */,
 				64E72B081B5133EF0001E8F3 /* Supporting Files */,
+				64E72B2E1B5136B60001E8F3 /* LDROpenServiceViewController.h */,
+				64E72B2F1B5136B60001E8F3 /* LDROpenServiceViewController.m */,
 			);
 			path = testAlertView;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64E72B111B5133EF0001E8F3 /* ViewController.m in Sources */,
+				64E72B301B5136B60001E8F3 /* LDROpenServiceViewController.m in Sources */,
 				64E72B0E1B5133EF0001E8F3 /* AppDelegate.m in Sources */,
 				64E72B0B1B5133EF0001E8F3 /* main.m in Sources */,
 			);

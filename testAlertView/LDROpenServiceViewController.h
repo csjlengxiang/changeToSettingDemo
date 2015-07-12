@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LDROpenServiceViewController.h
 //  testAlertView
 //
 //  Created by chensijie on 15/7/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LDROpenServiceViewController : UIViewController
 
 @end
-
